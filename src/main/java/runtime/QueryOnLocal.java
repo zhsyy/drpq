@@ -90,7 +90,7 @@ public class QueryOnLocal {
 
             LinkedList<TaskCluster> allTaskList = new LinkedList<>();
 
-            // 读取文件，生成cachedInputArray和initialTuplesQueue
+            // Read the file and generate cachedInputArray and initialTuplesQueue
             while (input != null) {
                 numberOfTuples++;
                 long currentTime = input.getTimestamp();
